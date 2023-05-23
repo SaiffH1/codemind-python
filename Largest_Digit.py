@@ -1,8 +1,9 @@
-num=int(input())
-max=0
-while num>0:
-    digit=num%10
-    if max<digit:
-        max=digit
-    num=num//10
-print(max)
+number = int(input())
+count = 0 
+while number > 0:
+    digit = number % 10
+    if digit > count:
+        count = digit
+    number //= 10
+
+print(count)
