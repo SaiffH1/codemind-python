@@ -1,5 +1,5 @@
 n=int(input())
-count=0
+c=0
 l=[]
 while n>0:
     temp=n%10
@@ -10,4 +10,4 @@ for i in range(len(l)-1,-1,-1):
         l[i]=9
         break
 for i in range(len(l)-1,-1,-1):
-    print(l[i],end='')
+    print(l[i], end="")
