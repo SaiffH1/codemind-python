@@ -1,6 +1,6 @@
-def multiple(p,r,t):
-    res=p*r*t//100
+def multiple(p,t,r):
+    res=p*t*r//100
     return res
-p,r,t=map(int,input().split())
-res=multiple(p,r,t)
+p,t,r=map(int,input().split())
+res=multiple(p,t,r)
 print(res)
