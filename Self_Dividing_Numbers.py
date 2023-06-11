@@ -8,7 +8,6 @@ def seldivnum(num):
     return True
 n=int(input())
 m=int(input())
-for i in range (n,m+1):
+for i in range(n,m+1):
     if seldivnum(i):
         print(i,end=" ")
-        
